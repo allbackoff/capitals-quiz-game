@@ -1,0 +1,57 @@
+body {
+    background-color: #eee;
+}
+
+/*your code here*/
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead {
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody {
+    text-align: left;
+}
+
+td {
+    padding: 4px;
+    border-bottom: 1px solid #808080;
+}
+
+th {
+    padding: 4px;
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+div.content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+.wrong #capital {
+    text-decoration-line:line-through;
+}
+
+.ui-autocomplete
+ {
+     max-height: 250px;
+     overflow-y: auto;
+     overflow-x: hidden;
+ }
